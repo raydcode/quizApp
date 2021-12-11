@@ -110,12 +110,12 @@ let questionsArray = [
   new Questions(
     'Who creted JavaScript ?',
     ['Steve Jobs', 'Bill Gates', 'Linus Torvalds', 'Brendan Eich'],
-    'brendon eich'
+    'Brendan Eich'
   ),
   new Questions(
     'Inside which HTML element do we put the JavaScript?',
     ['Script', 'Paragraph', 'Link', 'Style'],
-    'script'
+    'Script'
   ),
   new Questions(
     'Hyper Text Markup Language Stands For?',
