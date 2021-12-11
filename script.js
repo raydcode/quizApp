@@ -108,14 +108,39 @@ function showScores() {
  */
 let questionsArray = [
   new Questions(
-    'who creted JavaScript ?',
-    ['steve jobs', 'bill gates', 'elon musk', 'brendon eich'],
+    'Who creted JavaScript ?',
+    ['Steve Jobs', 'Bill Gates', 'Linus Torvalds', 'Brendan Eich'],
     'brendon eich'
   ),
   new Questions(
     'Inside which HTML element do we put the JavaScript?',
-    ['script', 'p', 'link', 'style'],
+    ['Script', 'Paragraph', 'Link', 'Style'],
     'script'
+  ),
+  new Questions(
+    'Hyper Text Markup Language Stands For?',
+    ['JQuery', 'XHTML', 'CSS', 'HTML'],
+    'HTML'
+  ),
+  new Questions(
+    'Cascading Style sheet stands for?',
+    ['HTML', 'JQuery', 'CSS', 'XML'],
+    'CSS'
+  ),
+  new Questions(
+    'Which is a JavaScript Framework?',
+    ['React', 'Laravel', 'Django', 'Sass'],
+    'React'
+  ),
+  new Questions(
+    'Which is a backend language?',
+    ['PHP', 'HTML', 'React', 'All'],
+    'PHP'
+  ),
+  new Questions(
+    'Which is best for Artificial intelligence?',
+    ['React', 'Laravel', 'Python', 'Sass'],
+    'Python'
   ),
 ];
 

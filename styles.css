@@ -54,6 +54,9 @@ img {
   border-radius: 5px;
   padding: 10px 50px 50px 50px;
   border: 3px solid var(--light-blue);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .quiz-box h1 {
@@ -85,12 +88,9 @@ img {
 }
 
 .quiz-box #question {
-
- font-size: 1.5rem;
- font-weight: 700;
-
+  font-size: 1.5rem;
+  font-weight: 700;
 }
-
 
 .buttons {
   margin: 1.5rem 0 4rem 0;
@@ -110,21 +110,23 @@ img {
   outline: none;
 }
 
-
-.btn:hover{
+.btn:hover {
   cursor: pointer;
   background-color: transparent;
-
+  color: #1c2b2d;
+  border: 3px solid red;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.btn:active{
+.btn:active {
   transform: scale(0.8);
   background-color: var(--light-blue);
 }
 
-
 #score {
-  color:#fff;
+  color: #fff;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 4rem;
@@ -133,20 +135,27 @@ img {
 .try-again {
   text-align: center;
   margin: 0 auto;
-
 }
 
 .try-again a {
   text-decoration: none;
   font-weight: 700;
-  color: #fff;
+  color: rgb(5, 0, 0);
   border: 1px solid var(--black);
-  padding:1rem;
-  transition: all .3s;
+  padding: 1rem;
+  transition: all 0.3s;
+  border-radius: 5px;
 }
 
-
-.try-again a:hover{
+.try-again a:hover {
   background-color: var(--light-blue);
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 238, 6, 0.09) 0px -3px 5px;
+
 }
 
+span {
+  margin: 5px;
+}
